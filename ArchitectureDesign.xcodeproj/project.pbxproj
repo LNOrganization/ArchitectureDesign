@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B36B4FA29263A51412005F5E /* Pods_ArchitectureDesignTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A5327C0B6D7A092789B87F /* Pods_ArchitectureDesignTests.framework */; };
+		3830DEA0F05AE42896275542 /* Pods_ArchitectureDesignTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C879DC6AE3AA5A19900244F /* Pods_ArchitectureDesignTests.framework */; };
 		B8758CBB293F9616005BF1DE /* LNAppModuleManger.m in Sources */ = {isa = PBXBuildFile; fileRef = B8758CBA293F9616005BF1DE /* LNAppModuleManger.m */; };
 		B8C988C426E0F3E000EA60EC /* UIFont+LNAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C988C326E0F3E000EA60EC /* UIFont+LNAddition.m */; };
 		B8C988ED26E1FF5F00EA60EC /* LNMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C988EC26E1FF5F00EA60EC /* LNMediator.m */; };
@@ -67,13 +67,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C879DC6AE3AA5A19900244F /* Pods_ArchitectureDesignTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchitectureDesignTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		330F00B21955E5F5420E8D9D /* Pods-ArchitectureDesign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureDesign.release.xcconfig"; path = "Target Support Files/Pods-ArchitectureDesign/Pods-ArchitectureDesign.release.xcconfig"; sourceTree = "<group>"; };
-		541743FA3B1B510898263C01 /* Pods-ArchitectureDesignTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureDesignTests.release.xcconfig"; path = "Target Support Files/Pods-ArchitectureDesignTests/Pods-ArchitectureDesignTests.release.xcconfig"; sourceTree = "<group>"; };
-		68A5327C0B6D7A092789B87F /* Pods_ArchitectureDesignTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchitectureDesignTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5A45469AD3500C8101FCD7 /* Pods-ArchitectureDesignTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureDesignTests.debug.xcconfig"; path = "Target Support Files/Pods-ArchitectureDesignTests/Pods-ArchitectureDesignTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8CEB8CE706F1DB522528E5E6 /* Pods_ArchitectureDesign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchitectureDesign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90967EDA82833E50DAD552AF /* Pods-ArchitectureDesignTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureDesignTests.debug.xcconfig"; path = "Target Support Files/Pods-ArchitectureDesignTests/Pods-ArchitectureDesignTests.debug.xcconfig"; sourceTree = "<group>"; };
-		95061AAEA76CF62998CEB8CE /* Pods-ArchitectureDesignTests.bate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureDesignTests.bate.xcconfig"; path = "Target Support Files/Pods-ArchitectureDesignTests/Pods-ArchitectureDesignTests.bate.xcconfig"; sourceTree = "<group>"; };
 		A9D102C64CF090447E8C5E5B /* Pods-ArchitectureDesign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureDesign.debug.xcconfig"; path = "Target Support Files/Pods-ArchitectureDesign/Pods-ArchitectureDesign.debug.xcconfig"; sourceTree = "<group>"; };
+		B360EC750E221E073EA6B919 /* Pods-ArchitectureDesignTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureDesignTests.release.xcconfig"; path = "Target Support Files/Pods-ArchitectureDesignTests/Pods-ArchitectureDesignTests.release.xcconfig"; sourceTree = "<group>"; };
 		B36CEBB2408982325D18186D /* Pods-ArchitectureDesign.bate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureDesign.bate.xcconfig"; path = "Target Support Files/Pods-ArchitectureDesign/Pods-ArchitectureDesign.bate.xcconfig"; sourceTree = "<group>"; };
 		B8758CB9293F9616005BF1DE /* LNAppModuleManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAppModuleManger.h; sourceTree = "<group>"; };
 		B8758CBA293F9616005BF1DE /* LNAppModuleManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAppModuleManger.m; sourceTree = "<group>"; };
@@ -155,6 +154,7 @@
 		B8F1AC4E26DF525700383244 /* LNCustomFoundationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNCustomFoundationKit.h; sourceTree = "<group>"; };
 		B8F1AC4F26DF525700383244 /* NSString+LNTimeFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LNTimeFormat.m"; sourceTree = "<group>"; };
 		B8F1AC5026DF525700383244 /* NSString+LNTimeFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LNTimeFormat.h"; sourceTree = "<group>"; };
+		D1299F3202252C64223E49A9 /* Pods-ArchitectureDesignTests.bate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureDesignTests.bate.xcconfig"; path = "Target Support Files/Pods-ArchitectureDesignTests/Pods-ArchitectureDesignTests.bate.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B36B4FA29263A51412005F5E /* Pods_ArchitectureDesignTests.framework in Frameworks */,
+				3830DEA0F05AE42896275542 /* Pods_ArchitectureDesignTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,9 +188,9 @@
 			isa = PBXGroup;
 			children = (
 				8CEB8CE706F1DB522528E5E6 /* Pods_ArchitectureDesign.framework */,
-				68A5327C0B6D7A092789B87F /* Pods_ArchitectureDesignTests.framework */,
 				B8C98C5426E8B2D800EA60EC /* xcode_run_cmd.sh */,
 				B8C98C5526E8B2D800EA60EC /* xcode_run_log.txt */,
+				0C879DC6AE3AA5A19900244F /* Pods_ArchitectureDesignTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -200,10 +200,10 @@
 			children = (
 				A9D102C64CF090447E8C5E5B /* Pods-ArchitectureDesign.debug.xcconfig */,
 				330F00B21955E5F5420E8D9D /* Pods-ArchitectureDesign.release.xcconfig */,
-				90967EDA82833E50DAD552AF /* Pods-ArchitectureDesignTests.debug.xcconfig */,
-				541743FA3B1B510898263C01 /* Pods-ArchitectureDesignTests.release.xcconfig */,
 				B36CEBB2408982325D18186D /* Pods-ArchitectureDesign.bate.xcconfig */,
-				95061AAEA76CF62998CEB8CE /* Pods-ArchitectureDesignTests.bate.xcconfig */,
+				6E5A45469AD3500C8101FCD7 /* Pods-ArchitectureDesignTests.debug.xcconfig */,
+				D1299F3202252C64223E49A9 /* Pods-ArchitectureDesignTests.bate.xcconfig */,
+				B360EC750E221E073EA6B919 /* Pods-ArchitectureDesignTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -506,7 +506,7 @@
 				B8F1ABBA26DD156F00383244 /* Frameworks */,
 				B8F1ABBB26DD156F00383244 /* Resources */,
 				B8C98C5326E8A59200EA60EC /* ShellScript */,
-				239840B2D466C77A082DC7E2 /* [CP] Embed Pods Frameworks */,
+				3AA093AE46835C59A561E353 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -521,7 +521,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8F1ABEF26DD157000383244 /* Build configuration list for PBXNativeTarget "ArchitectureDesignTests" */;
 			buildPhases = (
-				758D09C82D83897B52CF7E49 /* [CP] Check Pods Manifest.lock */,
+				B3D64FB77DE700345E83C42B /* [CP] Check Pods Manifest.lock */,
 				B8F1ABD426DD157000383244 /* Sources */,
 				B8F1ABD526DD157000383244 /* Frameworks */,
 				B8F1ABD626DD157000383244 /* Resources */,
@@ -649,7 +649,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		239840B2D466C77A082DC7E2 /* [CP] Embed Pods Frameworks */ = {
+		3AA093AE46835C59A561E353 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -666,7 +666,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArchitectureDesign/Pods-ArchitectureDesign-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		758D09C82D83897B52CF7E49 /* [CP] Check Pods Manifest.lock */ = {
+		B3D64FB77DE700345E83C42B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -880,7 +880,7 @@
 		};
 		B8C98C4A26E874E700EA60EC /* Bate */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95061AAEA76CF62998CEB8CE /* Pods-ArchitectureDesignTests.bate.xcconfig */;
+			baseConfigurationReference = D1299F3202252C64223E49A9 /* Pods-ArchitectureDesignTests.bate.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1079,7 +1079,7 @@
 		};
 		B8F1ABF026DD157000383244 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90967EDA82833E50DAD552AF /* Pods-ArchitectureDesignTests.debug.xcconfig */;
+			baseConfigurationReference = 6E5A45469AD3500C8101FCD7 /* Pods-ArchitectureDesignTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1100,7 +1100,7 @@
 		};
 		B8F1ABF126DD157000383244 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 541743FA3B1B510898263C01 /* Pods-ArchitectureDesignTests.release.xcconfig */;
+			baseConfigurationReference = B360EC750E221E073EA6B919 /* Pods-ArchitectureDesignTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,87 @@
+{
+  "name": "LNFeedModule",
+  "version": "0.1.7",
+  "summary": "Feed流模块.",
+  "description": "实现feed流模块.",
+  "homepage": "https://github.com/NoNameOrganazation/LNFeedModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongjianxiong": "jianxiong20090919@126.com"
+  },
+  "source": {
+    "git": "https://github.com/NoNameOrganazation/LNFeedModule.git",
+    "tag": "0.1.7"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LNFeedModule/Classes/*",
+  "public_header_files": "LNFeedModule/Classes/*.h",
+  "dependencies": {
+    "LNModuleProtocol": [
+
+    ],
+    "LNCommonKit": [
+
+    ],
+    "SDWebImage": [
+      "~>5.9.0"
+    ],
+    "JSONModel": [
+      "~>1.8.0"
+    ],
+    "MBProgressHUD": [
+      "~> 1.0.0"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Network",
+      "source_files": "LNFeedModule/Classes/Network/**/*",
+      "public_header_files": "LNFeedModule/Classes/Network/*.h"
+    },
+    {
+      "name": "Common",
+      "source_files": "LNFeedModule/Classes/Common/**/*",
+      "public_header_files": "LNFeedModule/Classes/Common/*.h"
+    },
+    {
+      "name": "CustomUIKit",
+      "source_files": "LNFeedModule/Classes/CustomUIKit/**/*",
+      "public_header_files": "LNFeed/Classes/CustomUIKit/*.h"
+    },
+    {
+      "name": "Feature",
+      "source_files": "LNFeedModule/Classes/Feature/**/*.{h,m}",
+      "public_header_files": "LNFeedModule/Classes/Feature/**/*.h",
+      "resource_bundles": {
+        "LNFeedModule": [
+          "LNFeedModule/Classes/Feature/**/*.xib"
+        ]
+      },
+      "dependencies": {
+        "LNFeedModule/CustomUIKit": [
+
+        ],
+        "LNFeedModule/Common": [
+
+        ],
+        "LNFeedModule/Network": [
+
+        ]
+      }
+    },
+    {
+      "name": "Mediator",
+      "source_files": "LNFeedModule/Classes/Mediator/**/*",
+      "dependencies": {
+        "LNFeedModule/Feature": [
+
+        ]
+      }
+    }
+  ]
+}

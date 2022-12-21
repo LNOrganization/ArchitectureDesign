@@ -6,7 +6,7 @@
 //
 
 #import "AppDelegate.h"
-#import <LNCommonKit/LNBaseMVC.h>
+#import <LNCommonKit/LNBase.h>
 #import "LNMainViewController.h"
 
 

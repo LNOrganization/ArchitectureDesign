@@ -19,20 +19,36 @@ PODS:
     - LNCommonKit
     - LNModuleProtocol
   - LNCommonKit (1.0.1):
-    - LNCommonKit/AFNetHTTPClient (= 1.0.1)
-    - LNCommonKit/BaseMVC (= 1.0.1)
+    - LNCommonKit/Base (= 1.0.1)
     - LNCommonKit/Consttant (= 1.0.1)
     - LNCommonKit/CustomUIKit (= 1.0.1)
     - LNCommonKit/Foundation (= 1.0.1)
     - LNCommonKit/Log (= 1.0.1)
     - LNCommonKit/Network (= 1.0.1)
     - LNCommonKit/Router (= 1.0.1)
-  - LNCommonKit/AFNetHTTPClient (1.0.1):
-    - AFNetworking (~> 4.0.1)
-    - LNCommonKit/Network
-  - LNCommonKit/BaseMVC (1.0.1):
+  - LNCommonKit/Base (1.0.1):
+    - LNCommonKit/Base/BaseVC (= 1.0.1)
+    - LNCommonKit/Base/CollectionVC (= 1.0.1)
+    - LNCommonKit/Base/Core (= 1.0.1)
+    - LNCommonKit/Base/DataModel (= 1.0.1)
+    - LNCommonKit/Base/Provider (= 1.0.1)
+    - LNCommonKit/Base/TableVC (= 1.0.1)
+  - LNCommonKit/Base/BaseVC (1.0.1):
     - LNCommonKit/CustomUIKit
+  - LNCommonKit/Base/CollectionVC (1.0.1):
+    - LNCommonKit/Base/BaseVC
+    - LNCommonKit/Base/Core
+    - MJRefresh (~> 3.7.2)
+  - LNCommonKit/Base/Core (1.0.1)
+  - LNCommonKit/Base/DataModel (1.0.1):
+    - JSONModel (~> 1.8.0)
+  - LNCommonKit/Base/Provider (1.0.1):
+    - LNCommonKit/Base/Core
+    - LNCommonKit/Base/DataModel
     - LNCommonKit/Network
+  - LNCommonKit/Base/TableVC (1.0.1):
+    - LNCommonKit/Base/BaseVC
+    - LNCommonKit/Base/Core
     - MJRefresh (~> 3.7.2)
   - LNCommonKit/Consttant (1.0.1)
   - LNCommonKit/CustomUIKit (1.0.1):
@@ -40,8 +56,18 @@ PODS:
   - LNCommonKit/CustomUIKit/ImgLoopScroll (1.0.1)
   - LNCommonKit/Foundation (1.0.1)
   - LNCommonKit/Log (1.0.1)
-  - LNCommonKit/Network (1.0.1)
+  - LNCommonKit/Network (1.0.1):
+    - LNCommonKit/Network/AFHTTPClient (= 1.0.1)
+    - LNCommonKit/Network/Core (= 1.0.1)
+    - LNCommonKit/Network/LNHTTPClient (= 1.0.1)
+  - LNCommonKit/Network/AFHTTPClient (1.0.1):
+    - AFNetworking (~> 4.0.1)
+    - LNCommonKit/Network/Core
+  - LNCommonKit/Network/Core (1.0.1)
+  - LNCommonKit/Network/LNHTTPClient (1.0.1):
+    - LNCommonKit/Network/Core
   - LNCommonKit/Router (1.0.1)
+  - LNDownloader (0.1.1)
   - LNFeedModule (0.1.7):
     - JSONModel (~> 1.8.0)
     - LNCommonKit
@@ -178,11 +204,15 @@ PODS:
   - SDWebImage/Core (5.9.5)
 
 DEPENDENCIES:
-  - LNAccountModule (~> 1.0.0)
-  - LNFeedModule (~> 0.1.7)
-  - LNLiveModule (~> 0.1.3)
-  - LNUserCenterModule (~> 0.1.3)
-  - LNVideoModule (~> 0.1.3)
+  - LNAccountModule (from `../LNAccountModule`)
+  - LNCommonKit (from `../LNCommonKit`)
+  - LNDownloader (from `../LNDownloader`)
+  - LNFeedModule (from `../LNFeedModule`)
+  - LNLiveModule (from `../LNLiveModule`)
+  - LNModuleCore (from `../LNModuleCore`)
+  - LNModuleProtocol (from `../LNModuleProtocol`)
+  - LNUserCenterModule (from `../LNUserCenterModule`)
+  - LNVideoModule (from `../LNVideoModule`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -191,31 +221,43 @@ SPEC REPOS:
     - MBProgressHUD
     - MJRefresh
     - SDWebImage
-  https://github.com/NoNameOrganazation/LNSpec.git:
-    - LNAccountModule
-    - LNCommonKit
-    - LNFeedModule
-    - LNLiveModule
-    - LNModuleCore
-    - LNModuleProtocol
-    - LNUserCenterModule
-    - LNVideoModule
+
+EXTERNAL SOURCES:
+  LNAccountModule:
+    :path: "../LNAccountModule"
+  LNCommonKit:
+    :path: "../LNCommonKit"
+  LNDownloader:
+    :path: "../LNDownloader"
+  LNFeedModule:
+    :path: "../LNFeedModule"
+  LNLiveModule:
+    :path: "../LNLiveModule"
+  LNModuleCore:
+    :path: "../LNModuleCore"
+  LNModuleProtocol:
+    :path: "../LNModuleProtocol"
+  LNUserCenterModule:
+    :path: "../LNUserCenterModule"
+  LNVideoModule:
+    :path: "../LNVideoModule"
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
-  LNAccountModule: b8c2e3604bc1b7bf326192acba1483986352413b
-  LNCommonKit: ec5bcc0822d00d5ff782c07148273cd19344af8c
-  LNFeedModule: 468a6a85fcccc6df47549d133bad20e3b4be61ec
-  LNLiveModule: e20e23043a7b7acb2e41914ed316712f91957fda
-  LNModuleCore: d37faf840963a9ccc7e6830331e1f340d86ac866
-  LNModuleProtocol: 8fc489749fc2d6d3df1a3be70c1cff817ae5a143
-  LNUserCenterModule: d0883bc56f6182b40133d8174b1d7e6fa8890b24
-  LNVideoModule: 513d84af284fdb9e00370b75f96ed94920458d50
+  LNAccountModule: a441795839adf52e7d59ac1ffb94047d4c816921
+  LNCommonKit: 65a0e069dc4c310c6857cea3d712cede22ddce18
+  LNDownloader: da76184957284bcfec2fd6a390da9ddbb5a3972b
+  LNFeedModule: 3367e324340d9a7a9294e52404c910b74e3eb4b2
+  LNLiveModule: 6769c57c23137f54d269f817a16a4fc854f706f2
+  LNModuleCore: ffa5ef6950d7820dbdcdd163c0e29f01b6997115
+  LNModuleProtocol: 7b05d9d649931fa32779c84977387e62ba08b499
+  LNUserCenterModule: 1cfef18b0b30cf60f86ce88252faf48a27971ead
+  LNVideoModule: adbcc24000c1c53c259d23775d81bd876cc05eb7
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
 
-PODFILE CHECKSUM: 91a39410dd47fad1bbe34fee5f578da99f810728
+PODFILE CHECKSUM: 2962a58b67761a860aae0fa25846bd583861e270
 
 COCOAPODS: 1.11.3

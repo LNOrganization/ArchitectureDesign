@@ -1,0 +1,68 @@
+{
+  "name": "LNVideoModule",
+  "version": "0.1.3",
+  "summary": "视频组件",
+  "description": "视频组件，开发和维护视频相关的功能",
+  "homepage": "https://github.com/NoNameOrganazation/LNVideoModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongjianxiong": "jianxiong20090919@126.com"
+  },
+  "source": {
+    "git": "https://github.com/NoNameOrganazation/LNVideoModule.git",
+    "tag": "0.1.3"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LNVideoModule/Classes/*",
+  "public_header_files": "LNVideoModule/Classes/*.h",
+  "dependencies": {
+    "LNModuleProtocol": [
+
+    ],
+    "LNCommonKit": [
+
+    ],
+    "SDWebImage": [
+      "~>5.9.0"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Common",
+      "source_files": "LNVideoModule/Classes/Common/**/*",
+      "public_header_files": "LNVideoModule/Classes/Common/*.h"
+    },
+    {
+      "name": "Network",
+      "source_files": "LNVideoModule/Classes/Network/**/*",
+      "public_header_files": "LNVideoModule/Classes/Network/*.h"
+    },
+    {
+      "name": "Feature",
+      "source_files": "LNVideoModule/Classes/Feature/**/*.{h,m}",
+      "public_header_files": "LNVideoModule/Classes/Feature/**/*.h",
+      "dependencies": {
+        "LNVideoModule/Common": [
+
+        ],
+        "LNVideoModule/Network": [
+
+        ]
+      }
+    },
+    {
+      "name": "Mediator",
+      "source_files": "LNVideoModule/Classes/Mediator/**/*",
+      "dependencies": {
+        "LNVideoModule/Feature": [
+
+        ]
+      }
+    }
+  ]
+}

@@ -3,6 +3,7 @@ ${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
 ${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework
 ${BUILT_PRODUCTS_DIR}/LNAccountModule/LNAccountModule.framework
 ${BUILT_PRODUCTS_DIR}/LNCommonKit/LNCommonKit.framework
+${BUILT_PRODUCTS_DIR}/LNDownloader/LNDownloader.framework
 ${BUILT_PRODUCTS_DIR}/LNFeedModule/LNFeedModule.framework
 ${BUILT_PRODUCTS_DIR}/LNLiveModule/LNLiveModule.framework
 ${BUILT_PRODUCTS_DIR}/LNModuleCore/LNModuleCore.framework

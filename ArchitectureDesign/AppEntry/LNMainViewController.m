@@ -10,7 +10,7 @@
 #import "LNUIKitHelper.h"
 
 #import <LNModuleProtocol/LNModuleProtocol.h>
-#import <LNCommonKit/LNBaseMVC.h>
+#import <LNCommonKit/LNBaseVC.h>
 
 @interface LNMainViewController ()
 
@@ -55,6 +55,14 @@
         vc.navigationBar.tintColor = foregroundColor;
         vc.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: foregroundColor};
     }
+    
+    [LNAppModuleManger.accountModule addObserver:self forLoginBlock:^(NSDictionary *userInfo, NSError *error) {
+        NSLog(@"登录成功");
+    }];
+    
+    [LNAppModuleManger.accountModule addObserver:self forLogoutBlock:^{
+        NSLog(@"退出登录登录");
+    }];
     
     // Do any additional setup after loading the view.
 }
