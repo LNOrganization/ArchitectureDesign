@@ -1437,7 +1437,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/MBProgressHUD/
 0000000000000000 - 00 0000    SO MBProgressHUD.m
-0000000063a2ff54 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/MBProgressHUD.o
+0000000063a43e2b - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/MBProgressHUD.o
 0000000100001aa0 - 01 0000 BNSYM 
 0000000100001aa0 - 01 0000   FUN +[MBProgressHUD showHUDAddedTo:animated:]
 00000000000000d0 - 00 0000   FUN 
@@ -2063,7 +2063,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/DACircularProgress/
 0000000000000000 - 00 0000    SO DALabeledCircularProgressView.m
-0000000063a2ff54 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/DALabeledCircularProgressView.o
+0000000063a43e2b - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/DALabeledCircularProgressView.o
 000000010000a030 - 01 0000 BNSYM 
 000000010000a030 - 01 0000   FUN -[DALabeledCircularProgressView initWithFrame:]
 00000000000000c0 - 00 0000   FUN 
@@ -2099,7 +2099,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/PYPhotoBrowser/Category/
 0000000000000000 - 00 0000    SO UIView+PYExtension.m
-0000000063a2ff50 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/UIView+PYExtension.o
+0000000063a43e28 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/UIView+PYExtension.o
 000000010000a400 - 01 0000 BNSYM 
 000000010000a400 - 01 0000   FUN -[UIView(PYExtension) setPy_x:]
 00000000000000c0 - 00 0000   FUN 
@@ -2170,7 +2170,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/PYPhotoBrowser/View/
 0000000000000000 - 00 0000    SO PYPhotoBrowseView.m
-0000000063a2ff53 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotoBrowseView.o
+0000000063a43e2a - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotoBrowseView.o
 000000010000ab70 - 01 0000 BNSYM 
 000000010000ab70 - 01 0000   FUN -[PYPhotoBrowseView init]
 00000000000000d0 - 00 0000   FUN 
@@ -2378,7 +2378,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/TYCyclePagerView/
 0000000000000000 - 00 0000    SO TYCyclePagerView.m
-0000000063a2ff51 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/TYCyclePagerView.o
+0000000063a43e29 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/TYCyclePagerView.o
 000000010000d160 - 01 0000 BNSYM 
 000000010000d160 - 01 0000   FUN -[TYCyclePagerView initWithFrame:]
 00000000000000d0 - 00 0000   FUN 
@@ -2782,7 +2782,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/PYPhotoBrowser/View/
 0000000000000000 - 00 0000    SO PYPhotosView.m
-0000000063a2ff51 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotosView.o
+0000000063a43e29 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotosView.o
 0000000100011b80 - 01 0000 BNSYM 
 0000000100011b80 - 01 0000   FUN -[PYPhotosView initWithFrame:]
 00000000000000f0 - 00 0000   FUN 
@@ -3105,7 +3105,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Utilites/CustomUIKit/
 0000000000000000 - 00 0000    SO UIFont+LNAddition.m
-0000000063a2ff50 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/UIFont+LNAddition.o
+0000000063a43e28 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/UIFont+LNAddition.o
 0000000100017630 - 01 0000 BNSYM 
 0000000100017630 - 01 0000   FUN +[UIFont(LNAddition) systemFontOfSize23]
 0000000000000070 - 00 0000   FUN 
@@ -3156,7 +3156,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/PYPhotoBrowser/Controller/
 0000000000000000 - 00 0000    SO PYPhotosNavigationController.m
-0000000063a2ff52 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotosNavigationController.o
+0000000063a43e29 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotosNavigationController.o
 0000000100017a20 - 01 0000 BNSYM 
 0000000100017a20 - 01 0000   FUN -[PYPhotosNavigationController setup]
 0000000000000230 - 00 0000   FUN 
@@ -3185,7 +3185,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Global/
 0000000000000000 - 00 0000    SO LNAppModuleManger.m
-0000000063a2ff54 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/LNAppModuleManger.o
+0000000063a43e2a - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/LNAppModuleManger.o
 0000000100017ec0 - 01 0000 BNSYM 
 0000000100017ec0 - 01 0000   FUN +[LNAppModuleManger moduleManager]
 0000000000000060 - 00 0000   FUN 
@@ -3292,7 +3292,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/PYPhotoBrowser/Model/
 0000000000000000 - 00 0000    SO PYPhoto.m
-0000000063a2ff54 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhoto.o
+0000000063a43e2a - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhoto.o
 00000001000183d0 - 01 0000 BNSYM 
 00000001000183d0 - 01 0000   FUN -[PYPhoto init]
 0000000000000300 - 00 0000   FUN 
@@ -3392,7 +3392,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/TYCyclePagerView/
 0000000000000000 - 00 0000    SO TYPageControl.m
-0000000063a2ff51 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/TYPageControl.o
+0000000063a43e29 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/TYPageControl.o
 0000000100018b10 - 01 0000 BNSYM 
 0000000100018b10 - 01 0000   FUN -[TYPageControl initWithFrame:]
 00000000000000c0 - 00 0000   FUN 
@@ -3607,7 +3607,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Utilites/Foundation/
 0000000000000000 - 00 0000    SO NSString+LNTimeFormat.m
-0000000063a2ff54 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/NSString+LNTimeFormat.o
+0000000063a43e2a - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/NSString+LNTimeFormat.o
 000000010001b020 - 01 0000 BNSYM 
 000000010001b020 - 01 0000   FUN +[NSString(LNTimeFormat) timeformatFromSeconds:]
 00000000000000f0 - 00 0000   FUN 
@@ -3621,7 +3621,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/PYPhotoBrowser/Controller/
 0000000000000000 - 00 0000    SO PYPhotosReaderController.m
-0000000063a2ff52 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotosReaderController.o
+0000000063a43e29 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotosReaderController.o
 000000010001b1f0 - 01 0000 BNSYM 
 000000010001b1f0 - 01 0000   FUN -[PYPhotosReaderController pageControl]
 0000000000000390 - 00 0000   FUN 
@@ -3871,7 +3871,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/PYPhotoBrowser/Controller/
 0000000000000000 - 00 0000    SO PYPhotosPreviewController.m
-0000000063a2ff52 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotosPreviewController.o
+0000000063a43e29 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotosPreviewController.o
 0000000100024e10 - 01 0000 BNSYM 
 0000000100024e10 - 01 0000   FUN -[PYPhotosPreviewController initWithCollectionViewLayout:]
 00000000000000d0 - 00 0000   FUN 
@@ -4025,7 +4025,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/TYCyclePagerView/
 0000000000000000 - 00 0000    SO TYCyclePagerTransformLayout.m
-0000000063a2ff51 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/TYCyclePagerTransformLayout.o
+0000000063a43e29 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/TYCyclePagerTransformLayout.o
 00000001000274d0 - 01 0000 BNSYM 
 00000001000274d0 - 01 0000   FUN -[TYCyclePagerTransformLayout init]
 00000000000000a0 - 00 0000   FUN 
@@ -4280,7 +4280,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/
 0000000000000000 - 00 0000    SO ViewController.m
-0000000063a2ff50 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/ViewController.o
+0000000063a43e28 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/ViewController.o
 000000010002a270 - 01 0000 BNSYM 
 000000010002a270 - 01 0000   FUN -[ViewController viewDidLoad]
 0000000000000039 - 00 0000   FUN 
@@ -4293,7 +4293,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/PYPhotoBrowser/Other/
 0000000000000000 - 00 0000    SO PYProgressView.m
-0000000063a2ff51 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYProgressView.o
+0000000063a43e29 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYProgressView.o
 000000010002a2b0 - 01 0000 BNSYM 
 000000010002a2b0 - 01 0000   FUN -[PYProgressView init]
 00000000000000a0 - 00 0000   FUN 
@@ -4319,7 +4319,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/AppEntry/
 0000000000000000 - 00 0000    SO AppDelegate.m
-0000000063a2ff54 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/AppDelegate.o
+0000000063a43e2b - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/AppDelegate.o
 000000010002a7d0 - 01 0000 BNSYM 
 000000010002a7d0 - 01 0000   FUN -[AppDelegate application:didFinishLaunchingWithOptions:]
 000000000000018f - 00 0000   FUN 
@@ -4334,7 +4334,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/
 0000000000000000 - 00 0000    SO main.m
-0000000063a2ff50 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/main.o
+0000000063a43e28 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/main.o
 000000010002a960 - 01 0000 BNSYM 
 000000010002a960 - 01 0000   FUN _main
 0000000000000087 - 00 0000   FUN 
@@ -4342,7 +4342,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/AppEntry/
 0000000000000000 - 00 0000    SO LNMainViewController.m
-0000000063a2ff54 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/LNMainViewController.o
+0000000063a43e2a - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/LNMainViewController.o
 000000010002a9f0 - 01 0000 BNSYM 
 000000010002a9f0 - 01 0000   FUN -[LNMainViewController viewDidLoad]
 00000000000008f0 - 00 0000   FUN 
@@ -4369,7 +4369,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/PYPhotoBrowser/View/
 0000000000000000 - 00 0000    SO PYPhotoView.m
-0000000063a2ff53 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotoView.o
+0000000063a43e2a - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotoView.o
 000000010002b4f0 - 01 0000 BNSYM 
 000000010002b4f0 - 01 0000   FUN -[PYPhotoView init]
 0000000000000710 - 00 0000   FUN 
@@ -4742,7 +4742,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/PYPhotoBrowser/Controller/
 0000000000000000 - 00 0000    SO PYPhotosViewController.m
-0000000063a2ff51 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotosViewController.o
+0000000063a43e29 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotosViewController.o
 0000000100045200 - 01 0000 BNSYM 
 0000000100045200 - 01 0000   FUN -[PYPhotosViewController init]
 00000000000000a0 - 00 0000   FUN 
@@ -4825,7 +4825,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/PYPhotoBrowser/View/
 0000000000000000 - 00 0000    SO PYPhotoCell.m
-0000000063a2ff53 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotoCell.o
+0000000063a43e2a - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotoCell.o
 0000000100046490 - 01 0000 BNSYM 
 0000000100046490 - 01 0000   FUN -[PYPhotoCell initWithFrame:]
 0000000000000710 - 00 0000   FUN 
@@ -4907,7 +4907,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Mediator/
 0000000000000000 - 00 0000    SO LNMediator.m
-0000000063a2ff54 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/LNMediator.o
+0000000063a43e2a - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/LNMediator.o
 0000000100048f90 - 01 0000 BNSYM 
 0000000100048f90 - 01 0000   FUN +[LNMediator topViewController:]
 0000000000000480 - 00 0000   FUN 
@@ -4924,7 +4924,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/FLAnimatedImage/
 0000000000000000 - 00 0000    SO FLAnimatedImage.m
-0000000063a2ff54 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/FLAnimatedImage.o
+0000000063a43e2b - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/FLAnimatedImage.o
 0000000100049510 - 01 0000 BNSYM 
 0000000100049510 - 01 0000   FUN -[FLAnimatedImage frameCacheSizeCurrent]
 0000000000000110 - 00 0000   FUN 
@@ -5338,7 +5338,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/PYPhotoBrowser/Other/
 0000000000000000 - 00 0000    SO PYPhotoBrowserConst.m
-0000000063a2ff53 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotoBrowserConst.o
+0000000063a43e29 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/PYPhotoBrowserConst.o
 0000000000000000 - 00 0000  GSYM _PYPhotoMargin
 0000000000000000 - 00 0000  GSYM _PYPhotoWidth
 0000000000000000 - 00 0000  GSYM _PYPhotoHeight
@@ -5357,7 +5357,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/DACircularProgress/
 0000000000000000 - 00 0000    SO DACircularProgressView.m
-0000000063a2ff54 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/DACircularProgressView.o
+0000000063a43e2b - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/DACircularProgressView.o
 000000010004e720 - 01 0000 BNSYM 
 000000010004e720 - 01 0000   FUN +[DACircularProgressLayer needsDisplayForKey:]
 00000000000000b0 - 00 0000   FUN 
@@ -5507,7 +5507,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/PYPhotoBrowser/Category/
 0000000000000000 - 00 0000    SO MBProgressHUD+PYExtension.m
-0000000063a2ff50 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/MBProgressHUD+PYExtension.o
+0000000063a43e2a - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/MBProgressHUD+PYExtension.o
 00000001000505b0 - 01 0000 BNSYM 
 00000001000505b0 - 01 0000   FUN +[MBProgressHUD(PY) py_show:icon:view:]
 0000000000000260 - 00 0000   FUN 
@@ -5527,7 +5527,7 @@
 0000000000000000 - 01 0000    SO 
 0000000000000000 - 00 0000    SO /Users/lenny/Study/Objective-C/ArchitectureDesign/Modulization/ArchitectureDesign/ArchitectureDesign/Venders/FLAnimatedImage/
 0000000000000000 - 00 0000    SO FLAnimatedImageView.m
-0000000063a2ff54 - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/FLAnimatedImageView.o
+0000000063a43e2b - 03 0001   OSO /Users/lenny/Library/Developer/Xcode/DerivedData/ArchitectureDesign-bmrhwsfdbvfsnmfenuwhwexyruwc/Build/Intermediates.noindex/ArchitectureDesign.build/Debug-iphonesimulator/ArchitectureDesign.build/Objects-normal/x86_64/FLAnimatedImageView.o
 0000000100050a80 - 01 0000 BNSYM 
 0000000100050a80 - 01 0000   FUN -[FLAnimatedImageView initWithImage:]
 00000000000000c0 - 00 0000   FUN 

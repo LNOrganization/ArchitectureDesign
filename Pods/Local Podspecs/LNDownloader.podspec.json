@@ -1,6 +1,6 @@
 {
   "name": "LNDownloader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "文件下载器",
   "description": "文件下载器。支持并行下载，断点续传。",
   "homepage": "https://github.com/dongjianxiong",
@@ -12,8 +12,8 @@
     "dongjianxiong": "jianxiong20090919@126.com"
   },
   "source": {
-    "git": "https://github.com/NoNameOrganazation/LNDownloader.git",
-    "tag": "0.1.1"
+    "git": "https://github.com/LNOrganization/LNDownloader.git",
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "10.0"
