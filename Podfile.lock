@@ -81,37 +81,53 @@ PODS:
   - LNCommonKit/Network/LNHTTPClient (1.0.6):
     - LNCommonKit/Network/Core
   - LNCommonKit/Router (1.0.6)
-  - LNFeedModule (0.1.8):
+  - LNFeedModule (0.1.9):
     - JSONModel (~> 1.8.0)
     - LNCommonKit
-    - LNFeedModule/Common (= 0.1.8)
-    - LNFeedModule/CustomUIKit (= 0.1.8)
-    - LNFeedModule/Data (= 0.1.8)
-    - LNFeedModule/Feature (= 0.1.8)
-    - LNFeedModule/Mediator (= 0.1.8)
-    - LNFeedModule/Network (= 0.1.8)
+    - LNFeedModule/Common (= 0.1.9)
+    - LNFeedModule/CustomUIKit (= 0.1.9)
+    - LNFeedModule/Data (= 0.1.9)
+    - LNFeedModule/Feature (= 0.1.9)
+    - LNFeedModule/Mediator (= 0.1.9)
+    - LNFeedModule/Network (= 0.1.9)
     - LNModuleProtocol
     - MBProgressHUD (~> 1.0.0)
     - SDWebImage (~> 5.9.0)
-  - LNFeedModule/Common (0.1.8):
-    - JSONModel (~> 1.8.0)
-    - LNCommonKit
-    - LNModuleProtocol
-    - MBProgressHUD (~> 1.0.0)
-    - SDWebImage (~> 5.9.0)
-  - LNFeedModule/CustomUIKit (0.1.8):
+  - LNFeedModule/Common (0.1.9):
     - JSONModel (~> 1.8.0)
     - LNCommonKit
     - LNModuleProtocol
     - MBProgressHUD (~> 1.0.0)
     - SDWebImage (~> 5.9.0)
-  - LNFeedModule/Data (0.1.8):
+  - LNFeedModule/CustomUIKit (0.1.9):
     - JSONModel (~> 1.8.0)
     - LNCommonKit
     - LNModuleProtocol
     - MBProgressHUD (~> 1.0.0)
     - SDWebImage (~> 5.9.0)
-  - LNFeedModule/Feature (0.1.8):
+  - LNFeedModule/Data (0.1.9):
+    - JSONModel (~> 1.8.0)
+    - LNCommonKit
+    - LNModuleProtocol
+    - MBProgressHUD (~> 1.0.0)
+    - SDWebImage (~> 5.9.0)
+  - LNFeedModule/Feature (0.1.9):
+    - JSONModel (~> 1.8.0)
+    - LNCommonKit
+    - LNFeedModule/Common
+    - LNFeedModule/CustomUIKit
+    - LNFeedModule/Data
+    - LNFeedModule/Feature/Base (= 0.1.9)
+    - LNFeedModule/Feature/Comment (= 0.1.9)
+    - LNFeedModule/Feature/Detail (= 0.1.9)
+    - LNFeedModule/Feature/Feed (= 0.1.9)
+    - LNFeedModule/Feature/Like (= 0.1.9)
+    - LNFeedModule/Feature/Topic (= 0.1.9)
+    - LNFeedModule/Network
+    - LNModuleProtocol
+    - MBProgressHUD (~> 1.0.0)
+    - SDWebImage (~> 5.9.0)
+  - LNFeedModule/Feature/Base (0.1.9):
     - JSONModel (~> 1.8.0)
     - LNCommonKit
     - LNFeedModule/Common
@@ -121,118 +137,287 @@ PODS:
     - LNModuleProtocol
     - MBProgressHUD (~> 1.0.0)
     - SDWebImage (~> 5.9.0)
-  - LNFeedModule/Mediator (0.1.8):
+  - LNFeedModule/Feature/Comment (0.1.9):
+    - JSONModel (~> 1.8.0)
+    - LNCommonKit
+    - LNFeedModule/Common
+    - LNFeedModule/CustomUIKit
+    - LNFeedModule/Data
+    - LNFeedModule/Feature/Base
+    - LNFeedModule/Network
+    - LNModuleProtocol
+    - MBProgressHUD (~> 1.0.0)
+    - SDWebImage (~> 5.9.0)
+  - LNFeedModule/Feature/Detail (0.1.9):
+    - JSONModel (~> 1.8.0)
+    - LNCommonKit
+    - LNFeedModule/Common
+    - LNFeedModule/CustomUIKit
+    - LNFeedModule/Data
+    - LNFeedModule/Feature/Base
+    - LNFeedModule/Network
+    - LNModuleProtocol
+    - MBProgressHUD (~> 1.0.0)
+    - SDWebImage (~> 5.9.0)
+  - LNFeedModule/Feature/Feed (0.1.9):
+    - JSONModel (~> 1.8.0)
+    - LNCommonKit
+    - LNFeedModule/Common
+    - LNFeedModule/CustomUIKit
+    - LNFeedModule/Data
+    - LNFeedModule/Feature/Base
+    - LNFeedModule/Network
+    - LNModuleProtocol
+    - MBProgressHUD (~> 1.0.0)
+    - SDWebImage (~> 5.9.0)
+  - LNFeedModule/Feature/Like (0.1.9):
+    - JSONModel (~> 1.8.0)
+    - LNCommonKit
+    - LNFeedModule/Common
+    - LNFeedModule/CustomUIKit
+    - LNFeedModule/Data
+    - LNFeedModule/Feature/Base
+    - LNFeedModule/Network
+    - LNModuleProtocol
+    - MBProgressHUD (~> 1.0.0)
+    - SDWebImage (~> 5.9.0)
+  - LNFeedModule/Feature/Topic (0.1.9):
+    - JSONModel (~> 1.8.0)
+    - LNCommonKit
+    - LNFeedModule/Common
+    - LNFeedModule/CustomUIKit
+    - LNFeedModule/Data
+    - LNFeedModule/Feature/Base
+    - LNFeedModule/Network
+    - LNModuleProtocol
+    - MBProgressHUD (~> 1.0.0)
+    - SDWebImage (~> 5.9.0)
+  - LNFeedModule/Mediator (0.1.9):
     - JSONModel (~> 1.8.0)
     - LNCommonKit
     - LNFeedModule/Feature
     - LNModuleProtocol
     - MBProgressHUD (~> 1.0.0)
     - SDWebImage (~> 5.9.0)
-  - LNFeedModule/Network (0.1.8):
+  - LNFeedModule/Network (0.1.9):
     - JSONModel (~> 1.8.0)
     - LNCommonKit
     - LNModuleProtocol
     - MBProgressHUD (~> 1.0.0)
     - SDWebImage (~> 5.9.0)
-  - LNLiveModule (0.1.4):
+  - LNLiveModule (0.1.5):
     - LNCommonKit
-    - LNLiveModule/Common (= 0.1.4)
-    - LNLiveModule/Data (= 0.1.4)
-    - LNLiveModule/Feature (= 0.1.4)
-    - LNLiveModule/Mediator (= 0.1.4)
-    - LNLiveModule/Network (= 0.1.4)
+    - LNLiveModule/Common (= 0.1.5)
+    - LNLiveModule/Data (= 0.1.5)
+    - LNLiveModule/Feature (= 0.1.5)
+    - LNLiveModule/Mediator (= 0.1.5)
+    - LNLiveModule/Network (= 0.1.5)
     - LNModuleProtocol
     - SDWebImage (~> 5.9.0)
-  - LNLiveModule/Common (0.1.4):
-    - LNCommonKit
-    - LNModuleProtocol
-    - SDWebImage (~> 5.9.0)
-  - LNLiveModule/Data (0.1.4):
+  - LNLiveModule/Common (0.1.5):
     - LNCommonKit
     - LNModuleProtocol
     - SDWebImage (~> 5.9.0)
-  - LNLiveModule/Feature (0.1.4):
+  - LNLiveModule/Data (0.1.5):
+    - LNCommonKit
+    - LNModuleProtocol
+    - SDWebImage (~> 5.9.0)
+  - LNLiveModule/Feature (0.1.5):
+    - LNCommonKit
+    - LNLiveModule/Common
+    - LNLiveModule/Data
+    - LNLiveModule/Feature/Base (= 0.1.5)
+    - LNLiveModule/Feature/Focus (= 0.1.5)
+    - LNLiveModule/Feature/LiveRoom (= 0.1.5)
+    - LNLiveModule/Feature/Recommend (= 0.1.5)
+    - LNLiveModule/Network
+    - LNModuleProtocol
+    - SDWebImage (~> 5.9.0)
+  - LNLiveModule/Feature/Base (0.1.5):
     - LNCommonKit
     - LNLiveModule/Common
     - LNLiveModule/Data
     - LNLiveModule/Network
     - LNModuleProtocol
     - SDWebImage (~> 5.9.0)
-  - LNLiveModule/Mediator (0.1.4):
+  - LNLiveModule/Feature/Focus (0.1.5):
+    - LNCommonKit
+    - LNLiveModule/Common
+    - LNLiveModule/Data
+    - LNLiveModule/Feature/Base
+    - LNLiveModule/Network
+    - LNModuleProtocol
+    - SDWebImage (~> 5.9.0)
+  - LNLiveModule/Feature/LiveRoom (0.1.5):
+    - LNCommonKit
+    - LNLiveModule/Common
+    - LNLiveModule/Data
+    - LNLiveModule/Feature/Base
+    - LNLiveModule/Network
+    - LNModuleProtocol
+    - SDWebImage (~> 5.9.0)
+  - LNLiveModule/Feature/Recommend (0.1.5):
+    - LNCommonKit
+    - LNLiveModule/Common
+    - LNLiveModule/Data
+    - LNLiveModule/Feature/Base
+    - LNLiveModule/Network
+    - LNModuleProtocol
+    - SDWebImage (~> 5.9.0)
+  - LNLiveModule/Mediator (0.1.5):
     - LNCommonKit
     - LNLiveModule/Feature
     - LNModuleProtocol
     - SDWebImage (~> 5.9.0)
-  - LNLiveModule/Network (0.1.4):
+  - LNLiveModule/Network (0.1.5):
     - LNCommonKit
     - LNModuleProtocol
     - SDWebImage (~> 5.9.0)
   - LNModuleCore (1.0.0)
   - LNModuleProtocol (1.0.1):
     - LNModuleCore
-  - LNUserCenterModule (0.1.4):
+  - LNUserCenterModule (0.1.5):
     - LNCommonKit
     - LNModuleProtocol
-    - LNUserCenterModule/Common (= 0.1.4)
-    - LNUserCenterModule/Data (= 0.1.4)
-    - LNUserCenterModule/Feature (= 0.1.4)
-    - LNUserCenterModule/Mediator (= 0.1.4)
-    - LNUserCenterModule/Network (= 0.1.4)
+    - LNUserCenterModule/Common (= 0.1.5)
+    - LNUserCenterModule/Data (= 0.1.5)
+    - LNUserCenterModule/Feature (= 0.1.5)
+    - LNUserCenterModule/Mediator (= 0.1.5)
+    - LNUserCenterModule/Network (= 0.1.5)
     - SDWebImage (~> 5.9.0)
-  - LNUserCenterModule/Common (0.1.4):
-    - LNCommonKit
-    - LNModuleProtocol
-    - SDWebImage (~> 5.9.0)
-  - LNUserCenterModule/Data (0.1.4):
+  - LNUserCenterModule/Common (0.1.5):
     - LNCommonKit
     - LNModuleProtocol
     - SDWebImage (~> 5.9.0)
-  - LNUserCenterModule/Feature (0.1.4):
+  - LNUserCenterModule/Data (0.1.5):
+    - LNCommonKit
+    - LNModuleProtocol
+    - SDWebImage (~> 5.9.0)
+  - LNUserCenterModule/Feature (0.1.5):
+    - LNCommonKit
+    - LNModuleProtocol
+    - LNUserCenterModule/Common
+    - LNUserCenterModule/Data
+    - LNUserCenterModule/Feature/Base (= 0.1.5)
+    - LNUserCenterModule/Feature/Fans (= 0.1.5)
+    - LNUserCenterModule/Feature/Focus (= 0.1.5)
+    - LNUserCenterModule/Feature/Friend (= 0.1.5)
+    - LNUserCenterModule/Feature/UserInfo (= 0.1.5)
+    - LNUserCenterModule/Network
+    - SDWebImage (~> 5.9.0)
+  - LNUserCenterModule/Feature/Base (0.1.5):
     - LNCommonKit
     - LNModuleProtocol
     - LNUserCenterModule/Common
     - LNUserCenterModule/Data
     - LNUserCenterModule/Network
     - SDWebImage (~> 5.9.0)
-  - LNUserCenterModule/Mediator (0.1.4):
+  - LNUserCenterModule/Feature/Fans (0.1.5):
+    - LNCommonKit
+    - LNModuleProtocol
+    - LNUserCenterModule/Common
+    - LNUserCenterModule/Data
+    - LNUserCenterModule/Feature/Base
+    - LNUserCenterModule/Network
+    - SDWebImage (~> 5.9.0)
+  - LNUserCenterModule/Feature/Focus (0.1.5):
+    - LNCommonKit
+    - LNModuleProtocol
+    - LNUserCenterModule/Common
+    - LNUserCenterModule/Data
+    - LNUserCenterModule/Feature/Base
+    - LNUserCenterModule/Network
+    - SDWebImage (~> 5.9.0)
+  - LNUserCenterModule/Feature/Friend (0.1.5):
+    - LNCommonKit
+    - LNModuleProtocol
+    - LNUserCenterModule/Common
+    - LNUserCenterModule/Data
+    - LNUserCenterModule/Feature/Base
+    - LNUserCenterModule/Network
+    - SDWebImage (~> 5.9.0)
+  - LNUserCenterModule/Feature/UserInfo (0.1.5):
+    - LNCommonKit
+    - LNModuleProtocol
+    - LNUserCenterModule/Common
+    - LNUserCenterModule/Data
+    - LNUserCenterModule/Feature/Base
+    - LNUserCenterModule/Network
+    - SDWebImage (~> 5.9.0)
+  - LNUserCenterModule/Mediator (0.1.5):
     - LNCommonKit
     - LNModuleProtocol
     - LNUserCenterModule/Feature
     - SDWebImage (~> 5.9.0)
-  - LNUserCenterModule/Network (0.1.4):
+  - LNUserCenterModule/Network (0.1.5):
     - LNCommonKit
     - LNModuleProtocol
     - SDWebImage (~> 5.9.0)
-  - LNVideoModule (0.1.4):
+  - LNVideoModule (0.1.5):
     - LNCommonKit
     - LNModuleProtocol
-    - LNVideoModule/Common (= 0.1.4)
-    - LNVideoModule/Data (= 0.1.4)
-    - LNVideoModule/Feature (= 0.1.4)
-    - LNVideoModule/Mediator (= 0.1.4)
-    - LNVideoModule/Network (= 0.1.4)
+    - LNVideoModule/Common (= 0.1.5)
+    - LNVideoModule/Data (= 0.1.5)
+    - LNVideoModule/Feature (= 0.1.5)
+    - LNVideoModule/Mediator (= 0.1.5)
+    - LNVideoModule/Network (= 0.1.5)
     - SDWebImage (~> 5.9.0)
-  - LNVideoModule/Common (0.1.4):
-    - LNCommonKit
-    - LNModuleProtocol
-    - SDWebImage (~> 5.9.0)
-  - LNVideoModule/Data (0.1.4):
+  - LNVideoModule/Common (0.1.5):
     - LNCommonKit
     - LNModuleProtocol
     - SDWebImage (~> 5.9.0)
-  - LNVideoModule/Feature (0.1.4):
+  - LNVideoModule/Data (0.1.5):
+    - LNCommonKit
+    - LNModuleProtocol
+    - SDWebImage (~> 5.9.0)
+  - LNVideoModule/Feature (0.1.5):
+    - LNCommonKit
+    - LNModuleProtocol
+    - LNVideoModule/Common
+    - LNVideoModule/Data
+    - LNVideoModule/Feature/Base (= 0.1.5)
+    - LNVideoModule/Feature/Focus (= 0.1.5)
+    - LNVideoModule/Feature/Player (= 0.1.5)
+    - LNVideoModule/Feature/Recommend (= 0.1.5)
+    - LNVideoModule/Network
+    - SDWebImage (~> 5.9.0)
+  - LNVideoModule/Feature/Base (0.1.5):
     - LNCommonKit
     - LNModuleProtocol
     - LNVideoModule/Common
     - LNVideoModule/Data
     - LNVideoModule/Network
     - SDWebImage (~> 5.9.0)
-  - LNVideoModule/Mediator (0.1.4):
+  - LNVideoModule/Feature/Focus (0.1.5):
+    - LNCommonKit
+    - LNModuleProtocol
+    - LNVideoModule/Common
+    - LNVideoModule/Data
+    - LNVideoModule/Feature/Base
+    - LNVideoModule/Network
+    - SDWebImage (~> 5.9.0)
+  - LNVideoModule/Feature/Player (0.1.5):
+    - LNCommonKit
+    - LNModuleProtocol
+    - LNVideoModule/Common
+    - LNVideoModule/Data
+    - LNVideoModule/Feature/Base
+    - LNVideoModule/Network
+    - SDWebImage (~> 5.9.0)
+  - LNVideoModule/Feature/Recommend (0.1.5):
+    - LNCommonKit
+    - LNModuleProtocol
+    - LNVideoModule/Common
+    - LNVideoModule/Data
+    - LNVideoModule/Feature/Base
+    - LNVideoModule/Network
+    - SDWebImage (~> 5.9.0)
+  - LNVideoModule/Mediator (0.1.5):
     - LNCommonKit
     - LNModuleProtocol
     - LNVideoModule/Feature
     - SDWebImage (~> 5.9.0)
-  - LNVideoModule/Network (0.1.4):
+  - LNVideoModule/Network (0.1.5):
     - LNCommonKit
     - LNModuleProtocol
     - SDWebImage (~> 5.9.0)
@@ -244,10 +429,10 @@ PODS:
 
 DEPENDENCIES:
   - LNAccountModule (~> 1.0.1)
-  - LNFeedModule (~> 0.1.8)
-  - LNLiveModule (~> 0.1.4)
-  - LNUserCenterModule (~> 0.1.4)
-  - LNVideoModule (~> 0.1.4)
+  - LNFeedModule (~> 0.1.9)
+  - LNLiveModule (~> 0.1.5)
+  - LNUserCenterModule (~> 0.1.5)
+  - LNVideoModule (~> 0.1.5)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -271,16 +456,16 @@ SPEC CHECKSUMS:
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   LNAccountModule: a67bb86e34cc5b99d41d2adc851d14fd509ce7bf
   LNCommonKit: e945896fcd54f48c25c2bf56808a29e1d5ad41b7
-  LNFeedModule: d786d199a74c1b382237ace0b0fb231839137c54
-  LNLiveModule: ef4a4860dca0c9696f9238ebb48fcb1eca9ec930
+  LNFeedModule: b76883370302a1260ddb86cd666ee12d555b0288
+  LNLiveModule: 64de2b70e68de9ad1c89bc5fcceb0fa75367cd2b
   LNModuleCore: 29c56ccca0d7386575d591b56c432f288da21e64
   LNModuleProtocol: 0c7c20e98b1c6006c7fdbe753aa6862b1d8c9765
-  LNUserCenterModule: 60c54d064d4a133374f15e36a0d9569348093850
-  LNVideoModule: c872f306323033843242f642edea54d08efb5a11
+  LNUserCenterModule: 59ecd7d39a54fe7e77a35186fe19833c616533c1
+  LNVideoModule: a6da9461870f9bab6b3afdc881e14d27a267a899
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
 
-PODFILE CHECKSUM: 8694240ede5d03f249cb52528724a10a699af0a6
+PODFILE CHECKSUM: 04ea7141fc5c33f2ce6faf132142841f34b57cd6
 
 COCOAPODS: 1.11.3

@@ -8,10 +8,10 @@ platform :ios, '11.0'
 target 'ArchitectureDesign' do
 #
   pod 'LNAccountModule', '~>1.0.1'
-  pod 'LNFeedModule', '~>0.1.8'
-  pod 'LNLiveModule', '~>0.1.4'
-  pod 'LNVideoModule', '~>0.1.4'
-  pod 'LNUserCenterModule', '~>0.1.4'
+  pod 'LNFeedModule', '~>0.1.9'
+  pod 'LNLiveModule', '~>0.1.5'
+  pod 'LNVideoModule', '~>0.1.5'
+  pod 'LNUserCenterModule', '~>0.1.5'
     # Local pod
 #  pod 'LNModuleCore', :path => '../LNModuleCore'
 #  pod 'LNModuleProtocol', :path => '../LNModuleProtocol'
